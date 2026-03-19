@@ -140,7 +140,7 @@ conf_threshold = st.sidebar.slider("신뢰도 임계값 (AI의 확신 정도)", 
 
 def load_model(threshold):
 
-    model_path = "./models/intel/face-detection-adas-0001/FP32/face-detection-adas-0001.xml"
+    model_path = "face-detection-adas-0001.xml"
 
     return OpenVINODetector(model_path, confidence=threshold)
 
