@@ -1,4 +1,4 @@
 streamlit
 numpy
 opencv-python-headless
-openvino
+openvino==2023.3.0
